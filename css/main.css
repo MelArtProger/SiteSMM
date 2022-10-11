@@ -1,0 +1,703 @@
+charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  margin: 0 !important;
+  padding: 0!important;
+  outline: none !important;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif !important;
+  color: #000000 !important;
+}
+
+h1 {
+  font-weight: bolder !important;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Шапка */
+
+@media (min-width: 990px) {
+  .navbar-brand img {
+    width: 6em;
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 989px) and (min-width: 500px) {
+  .navbar-brand img {
+    width: 5em;
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 499px) {
+  .navbar-brand img {
+    width: 4em;
+    margin-left: 2em;
+  }
+}
+
+.navbar-nav li {
+  padding-right: 3em;
+  font-weight: bolder;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+  color: #000000 !important;
+  border-radius: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  transition: 0.5s;
+  transform: scale(1.0);
+  text-align: center !important;
+}
+
+.nav-link:hover {
+  font-size: 1.1em;
+  background-color: #a4938b;
+  text-decoration: none;
+  transition: all.6s ease;
+  -o-transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+}
+
+/* Верхний блок */
+
+@media (min-width: 550px) {
+  #fixedHead a {
+    margin-left: 10em !important;
+    margin-left: 10em !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 549px) and (min-width: 360px) {
+  #fixedHead a {
+    margin-left: 6em !important;
+    margin-left: 6em !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 359px) {
+  #fixedHead a {
+    margin-left: 4em !important;
+    margin-left: 4em !important;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  #fixedHead {
+    height: 42em;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/header.jpg') no-repeat center center fixed;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixedHead .display-3 {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+
+  #fixedHead h3 {
+    margin-left: 3em !important;
+    margin-right: 3em !important;
+    text-align: left !important;
+    text-shadow: 5px 5px 20px #000 !important;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 999px) and (min-width: 900px) {
+  #fixedHead {
+    height: 40em;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/header.jpg') no-repeat center right fixed;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixedHead .display-3 {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+
+  #fixedHead h3 {
+    margin-left: 3em !important;
+    margin-right: 3em !important;
+    text-align: left !important;
+    text-shadow: 5px 5px 20px #000 !important;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 899px) and (min-width: 800px) {
+  #fixedHead {
+    height: 38em;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/header.jpg') no-repeat center right fixed;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixedHead .display-3 {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+
+  #fixedHead h3 {
+    margin-left: 3em !important;
+    margin-right: 3em !important;
+    text-align: left !important;
+    text-shadow: 5px 5px 20px #000 !important;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 799px) and (min-width: 540px) {
+  #fixedHead {
+    height: 36em;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/header.jpg') center right;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixedHead .display-3 {
+    font-size: 2.8em !important;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+
+  #fixedHead h3 {
+    font-size: 1.4em !important;
+    margin-left: 3em !important;
+    margin-right: 3em !important;
+    text-align: left !important;
+    text-shadow: 5px 5px 20px #000 !important;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 539px) and (min-width: 460px) {
+  #fixedHead {
+    height: 34em;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/header.jpg') center right;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixedHead .display-3 {
+    font-size: 2.4em !important;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+
+  #fixedHead h3 {
+    font-size: 1.2em !important;
+    margin-left: 3em !important;
+    margin-right: 3em !important;
+    text-align: left !important;
+    text-shadow: 5px 5px 20px #000 !important;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 459px) and (min-width: 382px) {
+  #fixedHead {
+    height: 33em;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/header.jpg') center right;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixedHead .display-3 {
+    font-size: 2em !important;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+
+  #fixedHead h3 {
+    font-size: 1em !important;
+    margin-left: 3em !important;
+    margin-right: 3em !important;
+    text-align: left !important;
+    text-shadow: 5px 5px 20px #000 !important;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 381px) {
+  #fixedHead {
+    height: 33em;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/header.jpg') center right;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixedHead .display-3 {
+    font-size: 1.8em !important;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+
+  #fixedHead h3 {
+    font-size: 0.8em !important;
+    margin-left: 3em !important;
+    margin-right: 3em !important;
+    text-align: left !important;
+    text-shadow: 5px 5px 20px #000 !important;
+    color: #fff !important;
+  }
+}
+
+/* Заголовки */
+
+@media (min-width: 1100px) {
+  #fixed {
+    height: 12em;
+    border-top: 0.2em solid #f0f0f0;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/fon_zag/fone.jpg') no-repeat center left fixed;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixed .display-3 {
+    margin-top: 0.8em;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 1099px) and (min-width: 900px) {
+  #fixed {
+    height: 12em;
+    border-top: 0.2em solid #f0f0f0;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/fon_zag/fone.jpg') no-repeat center left fixed;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixed .display-3 {
+    margin-top: 1em;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 899px) and (min-width: 730px) {
+  #fixed {
+    height: 12em;
+    border-top: 0.2em solid #f0f0f0;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/fon_zag/fone.jpg') center left;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixed .display-3 {
+    margin-top: 1.2em;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 729px) and (min-width: 600px) {
+  #fixed {
+    height: 12em;
+    border-top: 0.2em solid #f0f0f0;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/fon_zag/fone.jpg') center left;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixed .display-3 {
+    margin-top: 1.4em;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 450px) {
+  #fixed {
+    height: 12em;
+    border-top: 0.2em solid #f0f0f0;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/fon_zag/fone.jpg') center left;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixed .display-3 {
+    margin-top: 1.6em;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 449px) and (min-width: 350px) {
+  #fixed {
+    height: 12em;
+    border-top: 0.2em solid #f0f0f0;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/fon_zag/fone.jpg') center left;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixed .display-3 {
+    margin-top: 1.8em;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 349px) {
+  #fixed {
+    height: 12em;
+    border-top: 0.2em solid #f0f0f0;
+    border-bottom: 0.2em solid #f0f0f0;
+    background: url('../img/fon_zag/fone.jpg') center left;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+  }
+
+  #fixed .display-3 {
+    margin-top: 2em;
+    text-shadow: 5px 5px 20px #000;
+    color: #fff !important;
+  }
+}
+
+.podzagolovok {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/* Блок "Обо мне" */
+
+.padding {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.img-fluid {
+  border: 0.2em solid #f0f0f0 !important;
+  background-blend-mode: multiply !important;
+  padding: 0.25rem;
+  background-color: #fff;
+  border-radius: 0.375rem;
+}
+
+@media (min-width: 580px) {
+  #text h2 {
+    font-size: 2em !important;
+  }
+
+  #text h4 {
+    font-size: 1.5em !important;
+  }
+}
+
+@media (max-width: 579px) {
+  #text h2 {
+    font-size: 1.5em !important;
+  }
+
+  #text h4 {
+    font-size: 1em !important;
+  }
+}
+
+/* Блок "Как я работаю?" */
+
+#work_icon h3 {
+  margin-top: 0.6em;
+}
+
+@media (min-width: 780px) {
+  #work_icon img {
+    width: 8em;
+    transition: 0.5s;
+    transform: scale(1.0);
+    display: block;
+    margin: 0 auto;
+  }
+
+  #work_icon img:hover {
+    background-color: #a4938b;
+    padding: 1em;
+    border-radius: 50px 50px 50px 50px;
+    transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+  }
+}
+
+@media (max-width: 779px) and (min-width: 550px) {
+  #work_icon img {
+    width: 6em;
+    transition: 0.5s;
+    transform: scale(1.0);
+    display: block;
+    margin: 0 auto;
+  }
+
+  #work_icon img:hover {
+    background-color: #a4938b;
+    padding: 1em;
+    border-radius: 50px 50px 50px 50px;
+    transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+  }
+
+  #work_icon h3 {
+    font-size: 1.2em !important;
+  }
+}
+
+@media (max-width: 549px) and (min-width: 420px) {
+  #work_icon img {
+    width: 5em;
+    transition: 0.5s;
+    transform: scale(1.0);
+    display: block;
+    margin: 0 auto;
+  }
+
+  #work_icon img:hover {
+    background-color: #a4938b;
+    padding: 1em;
+    border-radius: 50px 50px 50px 50px;
+    transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+  }
+
+  #work_icon h3 {
+    font-size: 0.9em !important;
+  }
+}
+
+@media (max-width: 419px) and (min-width: 350px) {
+  #work_icon img {
+    width: 4em;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #work_icon h3 {
+    font-size: 0.7em !important;
+  }
+}
+
+@media (max-width: 349px) {
+  #work_icon img {
+    width: 3em;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #work_icon h3 {
+    font-size: 0.6em !important;
+  }
+}
+
+/* Портфолио */
+
+.img-me {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 0.2em solid #f0f0f0;
+  border-radius: 0.375rem;
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Контакты */
+
+@media (min-width: 700px) {
+  #contact_icon img {
+    width: 8em;
+    transition: 0.5s;
+    transform: scale(1.0);
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+
+  #contact_icon img:hover {
+    background-color: #a4938b;
+    padding: 1em;
+    border-radius: 50px 50px 50px 50px;
+    transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+  }
+}
+
+@media (max-width: 699px) and (min-width: 450px) {
+  #contact_icon img {
+    width: 6em;
+    transition: 0.5s;
+    transform: scale(1.0);
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+
+  #contact_icon img:hover {
+    background-color: #a4938b;
+    padding: 0.6em;
+    border-radius: 50px 50px 50px 50px;
+    transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+  }
+}
+
+@media (max-width: 449px){
+  #contact_icon img {
+    width: 4em;
+    transition: 0.5s;
+    transform: scale(1.0);
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+}
+
+/* Стили для Футера */
+
+footer {
+  background-color: #34353a;
+  padding-top: 1em;
+  border-top: 0.2em solid #f0f0f0;
+  color: white;
+  font-weight: bolder;
+}
